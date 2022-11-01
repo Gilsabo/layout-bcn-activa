@@ -133,36 +133,77 @@ margin:25px;
 @media  (max-width: 600px){
     .main-container{
         display: block;
-        border: rgb(254, 255, 3) 10px solid;
+        
             }
-    .left-part,
+    .left-part{
+    border-bottom:10px solid rgb(254, 255, 3);
+    border-top:20px solid rgb(254, 255, 3) ;
+    border-left:20px solid rgb(254, 255, 3) ;
+    border-right:20px solid rgb(254, 255, 3) ;
+    width: auto;
+
+    }
     .right-part{
-     border:10px solid rgb(254, 255, 3);
-     width: 100%;
+        border-bottom:20px solid rgb(254, 255, 3);
+        border-top:10px solid rgb(254, 255, 3) ;
+        border-left:20px solid rgb(254, 255, 3) ;
+        border-right:20px solid rgb(254, 255, 3) ;
+     width: auto;;
     
         }
     }
    
 
 @media (max-width:480px){
+    .right-part, .left-part{
+    border-color: rgb(254, 226, 40);
+
+
+    }
 
     .sub-header1 {
         display: block;
         min-height:auto;
+    }
         
-    
+    .upper-paired-text, .lowered-paired-text{
+        display: block;
+        width: auto;
 
     }
+    .text-left1,
+    .text-left2,
+    .text-left3,
+    .text-left4{
+    width: auto;
+    background-color: rgb(98, 149, 156);
+}
 
-    .sub-header2{
-        
-    }
+.text-left5{
+    background-color: rgb(163, 221, 203);
+}
 
 .text-left, 
 .text-middle, 
 .text-right{
     width: auto;
     
+}
+
+.left-part{
+    background-color: rgb(9, 80, 111);
+}
+
+.right-part{
+    background-color: rgb(253, 123, 84);
+}
+
+.text-right1, .text-right2{
+    background-color: rgb(253, 179, 107);
+}
+
+.footer{
+    background-color: rgb(253, 199, 100);
 }
 
 
