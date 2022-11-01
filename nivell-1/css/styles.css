@@ -53,9 +53,9 @@
 
 .main-container{
     display: flex;
-    border: black 10px solid;
     margin-top: 40px;
     min-height: auto; 
+    border: 10px solid black;
     
 }
 
@@ -73,12 +73,14 @@
 .left-part{
     width: 100%;
     background-color:rgb(78, 78, 106);    
+    border-right: 10px solid black;
     
 }
 
 .right-part{
     width: 600px;
     background-color:rgb(247, 63, 82);
+    border-right: 10px solid black;
 
 }
 
@@ -102,19 +104,7 @@ height: 50px;
 width: 100%;
 margin-bottom: 0px;
 
-
-
-
 }
-
-/*.text-left1,
-.text-left2{
-display:inline-block;
-}
-.text-left3,
-.text-left4{
-display:inline-block
-}*/
 
 .text-left5 {
     background-color:  rgb(112, 163, 196);
@@ -138,12 +128,15 @@ margin:25px;
 
 
 @media  (max-width: 700px){
-    .text-right1{
-        background-color: green;
-
-    }
-    .footer{
-        background-color: red;
+    .main-container{
+        display: block;
+        border: rgb(254, 255, 3) 10px solid;
+            }
+    .left-part,
+    .right-part{
+     border:10px solid rgb(254, 255, 3);
+     width: 100%;
+    
     }
     }
 
