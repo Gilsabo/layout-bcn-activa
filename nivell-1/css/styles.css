@@ -1,6 +1,6 @@
 .header{
     border: 10px solid black;
-    width: auto;
+    
 }
 
 .sub-header1 {
@@ -47,7 +47,7 @@
     justify-content: center;
     background-color: rgb(254, 212, 96);
     height: 50px;
-    width: 20000px;
+    width: 100%;
     margin:25px;
 }
 
@@ -55,14 +55,19 @@
     display: flex;
     border: black 10px solid;
     margin-top: 40px;
-    width: auto;
     min-height: auto; 
+    
+}
+
+.lowered-paired-text,
+.upper-paired-text{
+    display: flex;
 }
 
 .left-part,
 .right-part{
     border:10px solid black;
-    box-sizing: border-box;
+   
 }
 
 .left-part{
@@ -73,8 +78,8 @@
 
 .right-part{
     width: 600px;
-    background-color:rgb(247, 63, 82); 
-    
+    background-color:rgb(247, 63, 82);
+
 }
 
 .text-left1,  
@@ -94,20 +99,22 @@ height: 50px;
 .text-left4 {
 background-color: rgb(31, 108, 176);
 height: 50px;
-width: 400px;
+width: 100%;
 margin-bottom: 0px;
-margin-inline-end: auto;
+
+
 
 
 }
-.text-left1,
+
+/*.text-left1,
 .text-left2{
 display:inline-block;
 }
 .text-left3,
 .text-left4{
 display:inline-block
-}
+}*/
 
 .text-left5 {
     background-color:  rgb(112, 163, 196);
@@ -128,3 +135,18 @@ margin:25px;
     margin-top: 40px;
     background-color: rgb(230, 175, 46);
 }
+
+
+@media  (max-width: 700px){
+    .text-right1{
+        background-color: green;
+
+    }
+    .footer{
+        background-color: red;
+    }
+    }
+
+
+
+
