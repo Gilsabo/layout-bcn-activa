@@ -1,8 +1,6 @@
-
-
 .header{
     border: 10px solid black;
-    
+    width: auto;
 }
 
 .sub-header1 {
@@ -23,9 +21,9 @@
     justify-content: center;
     border: 10px solid black;
     height:120px;
-    background-color: rgb(221, 113, 58);
-    width: auto;
+    background-color: rgb(221, 113, 58); 
 }
+
 .text-left, 
 .text-middle, 
 .text-right{
@@ -33,13 +31,14 @@
     height: 50px;
     margin: 25px;
 }
+
 .text-left,
 .text-right{
     width: 200px;
 }
 
 .text-middle{
-    width: 750px;
+    width: 100%;
 }
 
 .text1{
@@ -49,6 +48,83 @@
     background-color: rgb(254, 212, 96);
     height: 50px;
     width: 20000px;
-    
     margin:25px;
+}
+
+.main-container{
+    display: flex;
+    border: black 10px solid;
+    margin-top: 40px;
+    width: auto;
+    min-height: auto; 
+}
+
+.left-part,
+.right-part{
+    border:10px solid black;
+    box-sizing: border-box;
+}
+
+.left-part{
+    width: 100%;
+    background-color:rgb(78, 78, 106);    
+    
+}
+
+.right-part{
+    width: 600px;
+    background-color:rgb(247, 63, 82); 
+    
+}
+
+.text-left1,  
+.text-left2,
+.text-left3,
+.text-left4,
+.text-left5,
+.text-right1,
+.text-right2{
+margin:25px;
+height: 50px;
+}
+
+.text-left1,  
+.text-left2,
+.text-left3,
+.text-left4 {
+background-color: rgb(31, 108, 176);
+height: 50px;
+width: 400px;
+margin-bottom: 0px;
+margin-inline-end: auto;
+
+
+}
+.text-left1,
+.text-left2{
+display:inline-block;
+}
+.text-left3,
+.text-left4{
+display:inline-block
+}
+
+.text-left5 {
+    background-color:  rgb(112, 163, 196);
+ }
+
+.text-right1,
+.text-right2{
+background-color: rgb(254, 234, 133);
+margin:25px;
+}
+
+
+
+.footer{
+    border: 20px solid black;
+    width: auto;
+    height: 50px;
+    margin-top: 40px;
+    background-color: rgb(230, 175, 46);
 }
