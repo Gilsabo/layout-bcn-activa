@@ -1,11 +1,13 @@
-.body{
-    
+body{
+    margin-left: 70px;
+    margin-right: 70px;
 }
 .header{
     background: url("../images/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;  
     background-position-y: -250px;
+    
 
 }
 
@@ -96,10 +98,9 @@
 
 .left-part{
     width: 100%;
-    background-color:rgb(78, 78, 106);  
+    background-color:rgb(216, 215, 215);
     border-width: 20px 10px 20px 20px;  
-    border-style: solid;
-    border-color: black;
+   
 }
 
 .text-left{
@@ -109,10 +110,9 @@
 
 .right-part{
     width: 600px;
-    background-color:rgb(247, 63, 82);
+    background-color:rgb(216, 215, 215);
     border-width: 20px 20px 20px 10px;
-    border-style: solid;
-    border-color: black;
+    
 }
 
 .text-left1,  
@@ -122,22 +122,54 @@
 .text-left5,
 .text-right1,
 .text-right2{
-    margin:25px;
-    height: 50px;
+    margin:10px;
+    height: auto;
+}
+
+.image-main{
+    background: url("../images/sakura.jpg");
+    height: 13rem;
+    width: auto;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+}
+
+.data{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    color: rgb(240, 230, 140);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.small-header{
+    background-color: rgb(240, 128, 128);
+    color: white;
+    font-size: 1.8rem;
+    padding-top: 0.8rem;
+    padding-left: 0.2rem;
 }
 
 .text-left1,  
 .text-left2,
 .text-left3,
 .text-left4 {
-    background-color: rgb(31, 108, 176);
+    background-color: rgb(245, 241, 241);
     width: 100%;
     margin-bottom: 0px;
 }
 
 .text-left5 {
-    background-color:  rgb(112, 163, 196);
+    background-color:  rgb(245, 241, 241);
  }
+
+ p, .small-header, .image-main{
+ margin:10px;
+ column-count: 2;
+ }
+
 
 .text-right1,
 .text-right2{
