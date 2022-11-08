@@ -188,7 +188,7 @@ body{
 }
 
 .text-left5 {
-    background-color:  rgb(245, 241, 241);
+    text-align: center;
  }
 
  p, .small-header, .image-main1, .image-main2, .image-main3, .image-main4{
