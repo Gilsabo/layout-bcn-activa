@@ -126,8 +126,34 @@ body{
     height: auto;
 }
 
-.image-main{
+.image-main1{
     background: url("../images/sakura.jpg");
+    height: 13rem;
+    width: auto;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+}
+
+.image-main2{
+    background: url("../images/comida.jpg");
+    height: 13rem;
+    width: auto;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+}
+.image-main3{
+    background: url("../images/fuji.jpg");
+    height: 13rem;
+    width: auto;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+}
+
+.image-main4{
+    background: url("../images/noche.jpg");
     height: 13rem;
     width: auto;
     background-color: black;
@@ -165,7 +191,7 @@ body{
     background-color:  rgb(245, 241, 241);
  }
 
- p, .small-header, .image-main{
+ p, .small-header, .image-main1, .image-main2, .image-main3, .image-main4{
  margin:10px;
  column-count: 2;
  }
