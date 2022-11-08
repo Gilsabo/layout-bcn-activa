@@ -94,10 +94,11 @@ body{
 .lowered-paired-text,
 .upper-paired-text{
     display: flex;
+    
 }
 
 .left-part{
-    width: auto;
+    width: 76.66%;
     background-color:rgb(216, 215, 215);
     border-width: 20px 10px 20px 20px;  
    
@@ -109,9 +110,10 @@ body{
 }
 
 .right-part{
-    width: 600px;
+    width: 23.33%;
     background-color:rgb(216, 215, 215);
-    border-width: 20px 20px 20px 10px;
+    
+    margin-left: 10px;
     
 }
 
@@ -124,13 +126,13 @@ body{
 .text-right2{
     margin:10px;
     height: auto;
+    
 }
 
 .image-main1{
     background: url("../images/sakura.jpg");
     height: 13rem;
     width: auto;
-    background-color: black;
     background-size: cover;
     position: relative;
 }
@@ -139,7 +141,6 @@ body{
     background: url("../images/comida.jpg");
     height: 13rem;
     width: auto;
-    background-color: black;
     background-size: cover;
     position: relative;
 }
@@ -147,7 +148,6 @@ body{
     background: url("../images/fuji.jpg");
     height: 13rem;
     width: auto;
-    background-color: black;
     background-size: cover;
     position: relative;
 }
@@ -156,7 +156,6 @@ body{
     background: url("../images/noche.jpg");
     height: 13rem;
     width: auto;
-    background-color: black;
     background-size: cover;
     position: relative;
 }
@@ -173,9 +172,10 @@ body{
 .small-header{
     background-color: rgb(240, 128, 128);
     color: white;
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding-top: 0.8rem;
     padding-left: 0.2rem;
+    width: auto;
 }
 
 .text-left1,  
@@ -183,25 +183,22 @@ body{
 .text-left3,
 .text-left4 {
     background-color: rgb(245, 241, 241);
-    width: 100%;
     margin-bottom: 0px;
+    width: 50%
 }
 
-.text-left5 {
+.text-left5, .text-right1, .text-right2 {
     text-align: center;
  }
 
- p, .small-header, .image-main1, .image-main2, .image-main3, .image-main4{
+ .small-header, .image-main1, .image-main2, .image-main3, .image-main4{
  margin:10px;
- column-count: 2;
+ 
  }
 
-
-.text-right1,
-.text-right2{
-    background-color: rgb(254, 234, 133);
-    margin:25px;
-}
+ p{
+    column-count: 2;
+ }
 
 .footer{
     border: 20px solid black;
@@ -227,7 +224,7 @@ body{
         border-width: 10px 20px 20px 20px;
         border-style: solid;
         border-color:rgb(254, 255, 3) ;
-        width: auto;;
+        width: auto;
         }
     }
    
