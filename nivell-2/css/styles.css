@@ -223,6 +223,19 @@ body{
     
 }
 
+span:hover{
+    color: brown;
+}
+
+.container:hover{
+    color: brown;
+    font-size: large;
+}
+
+.fa-facebook:hover, .fa-square-twitter:hover{
+    color: brown;
+    font-size: large;
+}
 
 @media  (max-width: 600px){
     .main-container{
