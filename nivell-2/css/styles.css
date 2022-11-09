@@ -32,6 +32,7 @@ body{
     padding-bottom: 4rem;
     margin-right: 9rem;
     margin-left: 9rem;
+    animation: moveLeft 1s ease-in ;
     
    
 }
@@ -47,6 +48,7 @@ body{
 .text-left,
 .text-right{
     width: 23.33%;
+    animation: moveLeft 1s ease-in ;
 }
 
 .text-middle{
@@ -58,7 +60,8 @@ body{
     display: flex;
     align-items: center;
     color: rgb(128, 128, 128);
-    gap: 5px;;
+    gap: 5px;
+    animation: moveLeft 1s ease-in ;
 }
 
 .text{
@@ -235,6 +238,19 @@ span:hover{
 .fa-facebook:hover, .fa-square-twitter:hover{
     color: brown;
     font-size: large;
+}
+
+
+@keyframes moveLeft {
+    0%{
+        opacity: 0;
+        transform:translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+    
 }
 
 @media  (max-width: 600px){
